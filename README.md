@@ -25,7 +25,16 @@ Android-NotificationSkip——Just Kiss Principle
 
 
 ## Use Code
-
+    在build.gradle 中添加 
+            
+         compile 'cn.andaction.nslib:nslib:1.0.0'
+    
+         allprojects {
+         repositories {
+            maven {
+            	url 'https://dl.bintray.com/wuhaiyang/maven'//这个地址在包的页面的右方
+        	}
+        }
 
     前台所有activity集成NSBaseActivity ---------------------->设计不是很合理 见谅了
 
@@ -41,6 +50,7 @@ Android-NotificationSkip——Just Kiss Principle
  
 
 ## Other
+
   
    读者认为 写得tm太菜了  就一时无聊 ！！ 越看真心不够优雅
 
