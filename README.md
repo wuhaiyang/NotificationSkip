@@ -29,13 +29,7 @@ Android-NotificationSkip——Just Kiss Principle
             
          compile 'cn.andaction.nslib:nslib:1.0.0'
     
-         allprojects {
-         repositories {
-            maven {
-            	url 'https://dl.bintray.com/wuhaiyang/maven'//这个地址在包的页面的右方
-        	}
-        }
-
+        
     前台所有activity集成NSBaseActivity ---------------------->设计不是很合理 见谅了
 
     在你处理跳转业务方法的地方加上
@@ -52,7 +46,7 @@ Android-NotificationSkip——Just Kiss Principle
 ## Other
 
   
-   读者认为 写得tm太菜了  就一时无聊 ！！ 越看真心不够优雅
+   就一时无聊 ！！ 越看真心不够优雅
 
    其他问题可以通过邮件互相沟通 互相学习 wuhaiyang@andthink.cn 
 
